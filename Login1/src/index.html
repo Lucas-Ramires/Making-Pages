@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/output.css" />
+    <title>Treinando Tailwinderson</title>
+</head>
+
+<body class="bg-slate-200">
+
+    <main class="w-full min-h-screen flex flex-col md:flex-row items-center justify-center mx-auto">
+        <section class="w-full flex-1 flex flex-col justify-center items-center p-4">
+            <div class=" w-full max-w-xl flex justify-center items-center flex-col gap-4">
+                <img src="./assets/user-list (1).png" alt="User Logo" class="w-36 hover:scale-110 duration-300" />
+                <h1 class="text-4xl font-bold mb-7">Login</h1>
+                <input class="w-full p-2 rounded-lg outline-none bg-gray-50 focus:bg-white" type="text"
+                    placeholder="Digite seu email..." />
+                <input class="w-full p-2 rounded-lg outline-none bg-gray-50 focus:bg-white" type="password"
+                    placeholder="*************" />
+
+                <div class="w-full flex items-center justify-between">
+                    <div class="flex items-center gap-2">
+                        <input type="checkbox" />
+                        <label class=" font-medium">Lembrar senha</label>
+                    </div>
+                    <a href="#" class="text-sky-500 hover:text-sky-400 duration-200">Esqueceu a senha?</a>
+                </div>
+                <button class="w-full bg-blue-600 p-2 rounded-lg text-white text-lg font-medium hover:bg-blue-500 duration-200">Acessar</button>
+                <p>
+                    Não Possui uma conta?
+                    <a href="#" class="font-medium text-sky-500 hover:text-sky-400 duration-200">Criar uma conta</a>
+                </p>
+            </div>
+        </section>
+        <section class="hidden md:flex gap-8 w-full flex-1 bg-blue-600 h-screen items-center justify-center flex-col p-4">
+            <h1 class="text-white text-2xl text-center max-w-lg lg:text-4xl">Domine as <strong> tecnologias mais buscadas</strong> pelo mercado!</h1>
+
+            <img src="assets/5275472_52337-removebg-preview.png" alt="Tecnologias usadas no mercado" class="w-3/4 lg:w-full lg:max-w-md"/>
+        </section>
+    </main>
+
+</body>
+
+</html>
